@@ -1,0 +1,84 @@
+{
+  "settings": {
+    "migrated": 3,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [],
+    "recentlyUsedIconsSize": 5,
+    "rules": [
+      {
+        "rule": " - Maps of Content",
+        "icon": "BoBxGlobeAlt",
+        "for": "folders",
+        "order": 0
+      },
+      {
+        "rule": " - Projects",
+        "icon": "BoBxsPen",
+        "for": "folders",
+        "order": 1
+      },
+      {
+        "rule": " - Areas",
+        "icon": "BoBxsPackage",
+        "for": "folders",
+        "order": 2
+      },
+      {
+        "rule": " - Resources",
+        "icon": "BoBxsBook",
+        "for": "folders",
+        "order": 3
+      },
+      {
+        "rule": " - Fleeting",
+        "icon": "BoBxsPencil",
+        "for": "folders",
+        "order": 4
+      },
+      {
+        "rule": "- Daily",
+        "icon": "BoBxCalendarEvent",
+        "for": "folders",
+        "order": 5
+      },
+      {
+        "rule": "- Meta",
+        "icon": "BoBxSelection",
+        "for": "folders",
+        "order": 6
+      },
+      {
+        "rule": "- Templates",
+        "icon": "BoBxRuler",
+        "for": "everything",
+        "order": 7
+      },
+      {
+        "rule": "- Archives",
+        "icon": "BoBxsArchive",
+        "for": "folders",
+        "order": 9
+      },
+      {
+        "rule": "- Permanent",
+        "icon": "BoBxsFile",
+        "for": "everything",
+        "order": 8
+      }
+    ],
+    "extraMargin": {
+      "top": 0,
+      "right": 2,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true
+  }
+}

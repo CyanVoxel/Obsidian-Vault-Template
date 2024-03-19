@@ -1,0 +1,125 @@
+/*------------------------------------------------------------------------------
+                      Minecraft Theme by CyanVoxel v1.0.0
+------------------------------------------------------------------------------*/
+
+:root {
+  --minecraft-green-primary: #52a535;
+  --minecraft-green-highlight: #86d562;
+  --minecraft-light-gray: #d0c5c0;
+  --minecraft-bg: #171615;
+}
+
+.minecraft {
+  --font-text: "Minecraftia", "Minecraft";
+  --h1-weight: 0;
+  --h1-font: "Minercraftory", "Minecrafter";
+  --h2-weight: 0;
+  --h3-weight: 0;
+  --h4-weight: 0;
+  --h5-weight: 0;
+  --h6-weight: 0;
+  --page-color: var(--minecraft-bg);
+
+  color-scheme: dark;
+  background-color: var(--minecraft-bg);
+  --text-normal: var(--minecraft-green-primary);
+  --text-muted: var(--minecraft-green-primary);
+  --checklist-done-color: var(--minecraft-green-primary);
+  --metadata-label-text-color: var(--minecraft-green-primary);
+  --tag-color: var(--minecraft-green-primary);
+  --link-color: var(--minecraft-green-primary);
+  --link-external-color: var(--minecraft-green-primary);
+  --link-unresolved-color: #e14a49;
+  --link-color-hover: var(--minecraft-green-highlight);
+  --metadata-input-text-color: var(--minecraft-green-primary);
+  --tag-background: color-mix(
+    in srgb,
+    var(--minecraft-green-primary) 20%,
+    transparent
+  );
+
+  --text-faint: color-mix(
+    in srgb,
+    var(--minecraft-green-primary) 50%,
+    transparent
+  );
+  --blockquote-border-color: var(--minecraft-green-primary);
+  --interactive-accent: var(--minecraft-green-primary);
+  --collapse-icon-color-collapsed: var(--minecraft-green-primary);
+  --checkbox-color: var(--minecraft-green-primary);
+  --checkbox-marker-color: var(--minecraft-bg);
+  --checkbox-color-hover: color-mix(
+    in srgb,
+    var(--minecraft-green-primary) 20%,
+    transparent
+  );
+  --checkbox-border-color: var(--minecraft-green-primary);
+  --list-marker-color: var(--minecraft-green-primary);
+  --embed-border-left: 2px solid var(--minecraft-green-primary);
+  --background-modifier-border-focus: var(--minecraft-green-highlight);
+  --background-modifier-border: color-mix(
+    in srgb,
+    var(--minecraft-green-primary) 20%,
+    transparent
+  );
+  --background-modifier-hover: color-mix(
+    in srgb,
+    var(--minecraft-green-primary) 20%,
+    transparent
+  );
+
+  color: var(--minecraft-light-gray);
+  --hr-color: var(--minecraft-green-highlight);
+}
+.embed-minecraft img {
+  background-color: var(--minecraft-bg);
+}
+
+.minecraft .multi-select-pill-content {
+  padding-top: 8px;
+}
+
+.minecraft .metadata-property-key {
+  padding-top: 8px;
+}
+
+.minecraft .metadata-input-text {
+  padding-top: 16px;
+  padding-bottom: 0;
+}
+
+.minecraft .text-button-label {
+  padding-top: 10px;
+}
+
+.minecraft .callout-title-inner {
+  padding-top: 6px;
+}
+
+.minecraft :is(h1, .HyperMD-header.HyperMD-header-1) {
+  text-align: center;
+  color: var(--minecraft-light-gray);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.minecraft :is(h2, .HyperMD-header.HyperMD-header-2) {
+  text-align: center;
+  color: var(--minecraft-green-primary);
+}
+
+.minecraft :is(h3, .HyperMD-header.HyperMD-header-3) {
+  text-align: center;
+  color: var(--minecraft-green-highlight);
+}
+
+.minecraft .multi-select-input {
+  font-family: var(--font-text);
+}
+
+.minecraft svg {
+  color: var(--minecraft-green-highlight);
+}
+
+.minecraft hr {
+  color: var(--minecraft-green-highlight);
+}

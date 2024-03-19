@@ -1,0 +1,42 @@
+@charset "UTF-8";
+:root {
+  font-family: "JetBrainsMono Nerd Font Mono";
+}
+
+.reveal-viewport {
+  background: #07030c;
+  color: #d0c1ff;
+}
+
+.reveal :is(p, a, ul, ol) {
+font-size: 28px;
+  text-align: left;
+  line-height: 1.2;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  color: #917bff;
+  word-wrap: break-word;
+}
+
+.reveal h1 {
+	font-size: 76px;
+	color: #43cfea;
+}
+.reveal h3 {
+	font-size: 48px;
+}
+
+
+.reveal .controls {
+  color: #d0c1ff !important;
+}
+.reveal .progress {
+  background: rgba(0, 0, 0, 0);
+  color: #d0c1ff;
+}

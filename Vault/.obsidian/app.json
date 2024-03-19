@@ -1,0 +1,15 @@
+{
+  "showInlineTitle": false,
+  "autoPairMarkdown": false,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "99 - Meta/attachments",
+  "promptDelete": false,
+  "userIgnoreFilters": [
+    "99 - Meta/"
+  ],
+  "showFrontmatter": true,
+  "propertiesInDocument": "visible",
+  "autoPairBrackets": false,
+  "readableLineLength": true,
+  "spellcheck": true
+}

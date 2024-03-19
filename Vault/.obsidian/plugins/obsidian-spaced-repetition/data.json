@@ -1,0 +1,48 @@
+{
+  "settings": {
+    "flashcardEasyText": "Got It",
+    "flashcardGoodText": "Parital",
+    "flashcardHardText": "Too Hard",
+    "flashcardTags": [
+      "#Japanese/Kanji",
+      "#Japanese/Vocabulary",
+      "#Japanese/Misc"
+    ],
+    "convertFoldersToDecks": false,
+    "cardCommentOnSameLine": true,
+    "burySiblingCards": false,
+    "showContextInCards": false,
+    "flashcardHeightPercentage": 80,
+    "flashcardWidthPercentage": 100,
+    "randomizeCardOrder": true,
+    "convertHighlightsToClozes": true,
+    "convertBoldTextToClozes": false,
+    "convertCurlyBracketsToClozes": false,
+    "singleLineCardSeparator": "::",
+    "singleLineReversedCardSeparator": ":::",
+    "multilineCardSeparator": "?",
+    "multilineReversedCardSeparator": "??",
+    "editLaterTag": "#edit-later",
+    "enableNoteReviewPaneOnStartup": false,
+    "tagsToReview": [
+      "#review"
+    ],
+    "noteFoldersToIgnore": [
+      "99 - Meta"
+    ],
+    "openRandomNote": false,
+    "autoNextNote": false,
+    "disableFileMenuReviewOptions": true,
+    "maxNDaysNotesReviewQueue": 365,
+    "initiallyExpandAllSubdecksInTree": true,
+    "baseEase": 250,
+    "lapsesIntervalChange": 0.5,
+    "easyBonus": 1.3,
+    "maximumInterval": 36525,
+    "maxLinkFactor": 1,
+    "showDebugMessages": false
+  },
+  "buryDate": "2024-03-18",
+  "buryList": [],
+  "historyDeck": null
+}

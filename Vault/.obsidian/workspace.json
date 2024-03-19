@@ -1,0 +1,22 @@
+{
+  "main": {},
+  "left-ribbon": {
+    "hiddenItems": {
+      "homepage:Open homepage": false,
+      "switcher:Open quick switcher": true,
+      "command-palette:Open command palette": true,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "zk-prefixer:Create new unique note": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": true,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "obsidian-importer:Open Importer": true,
+      "templater-obsidian:Templater": true,
+      "obsidian-advanced-slides:Show Slide Preview": false
+    }
+  },
+  "active": "",
+  "lastOpenFiles": []
+}

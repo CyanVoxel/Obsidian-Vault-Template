@@ -1,0 +1,21 @@
+/* This CSS Snippet is for displaying proper Japanese characters across
+notes and flashcards. */
+
+.japanese {
+  --font-text: "Yu Gothic", "Hiragino Sans";
+  /* color: cyan; */
+}
+
+.japanese .cm-editor {
+  --font-text: "Yu Gothic", "Hiragino Sans";
+  /* color: red; */
+}
+
+#sr-flashcard-view {
+  font-family: "Yu Gothic", "Hiragino Sans";
+  --font-monospace-default: "JetBrainsMono Nerd Font Mono", "SF Mono", monospace !important;
+}
+
+#sr-flashcard-view code {
+  font-family: "JetBrainsMono Nerd Font Mono", "SF Mono", monospace !important;
+}

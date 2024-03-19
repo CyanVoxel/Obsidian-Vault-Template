@@ -1,0 +1,110 @@
+body {
+    --completr-suggestion-icon-height: 14px;
+}
+
+.completr-suggestion-item {
+    padding: 5px 10px 5px 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    display: flex;
+    align-items: center;
+}
+
+.completr-suggestion-item > * {
+    display: inline-block;
+}
+
+.completr-suggestion-icon {
+    height: var(--completr-suggestion-icon-height);
+    min-height: var(--completr-suggestion-icon-height);
+    max-height: var(--completr-suggestion-icon-height);
+
+    margin-right: 0.5ch;
+    color: var(--completr-suggestion-color);
+}
+
+.completr-suggestion-text {
+}
+
+.completr-suggestion-placeholder {
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+}
+
+.completr-settings-no-border {
+    border: none;
+}
+
+.completr-settings-list-item {
+    border-top: 1px solid grey;
+    padding: 4px 0 0 0;
+}
+
+.completr-settings-error {
+    border: 1px solid red !important;
+}
+
+/**
+Snippet color classes.
+["lightskyblue", "orange", "lime", "pink", "cornsilk", "magenta", "navajowhite"]
+ */
+
+.completr-suggestion-placeholder0 {
+    border-color: lightskyblue;
+}
+
+/* These extra selectors enforce their color on all children, because CodeMirror does weird nesting of spans when
+ nesting multiple decorations. */
+span.completr-suggestion-placeholder0 span {
+    border-color: lightskyblue;
+}
+
+.completr-suggestion-placeholder1 {
+    border-color: orange;
+}
+
+span.completr-suggestion-placeholder1 span {
+    border-color: orange;
+}
+
+.completr-suggestion-placeholder2 {
+    border-color: lime;
+}
+
+span.completr-suggestion-placeholder2 span {
+    border-color: lime;
+}
+
+.completr-suggestion-placeholder3 {
+    border-color: pink;
+}
+
+span.completr-suggestion-placeholder3 span {
+    border-color: pink;
+}
+
+.completr-suggestion-placeholder4 {
+    border-color: cornsilk;
+}
+
+span.completr-suggestion-placeholder4 span {
+    border-color: cornsilk;
+}
+
+.completr-suggestion-placeholder5 {
+    border-color: magenta;
+}
+
+span.completr-suggestion-placeholder5 span {
+    border-color: magenta;
+}
+
+.completr-suggestion-placeholder6 {
+    border-color: navajowhite;
+}
+
+span.completr-suggestion-placeholder6 span {
+    border-color: navajowhite;
+}

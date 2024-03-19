@@ -1,0 +1,261 @@
+/*------------------------------------------------------------------------------
+              Notebook Background Color Schemes by CyanVoxel v2.0.0
+
+These a few CSS classes that mimic a few of my real-world pages and pen colors.
+Go ahead and try it out! You can change or add new color variables or entire new
+classes and combinations. Inside Obsidian, apply a page class with an optional
+pen color class to see the effects. Add the recolor-images class to recolor
+the images in your notes, too!
+
+Website used to generate Color Filters:
+https://angel-rs.github.io/css-color-filter-generator
+                
+------------------------------------------------------------------------------*/
+
+:root {
+  --pen-white: #edf1fc;
+  --pen-gray: #5f5d58;
+  --pen-black: #26241f;
+  --pen-red: #e14a49;
+  --pen-green: #15b64f;
+  --pen-blue: #3f76ed;
+  --pen-light-blue: #54b6f8;
+  --pen-purple: #9b4ff0;
+
+  --page-white: #ffffff;
+  --page-manila: #f3deaf;
+  --page-blue: #3f76ed;
+
+  --neutral-pen-black: #272727;
+  --neutral-pen-black-trans: #27272722;
+
+  --page-color: var(--page-manila);
+  --accent-color: var(--pen-black);
+  --accent-color-trans: var(--manila-pen-black-trans);
+}
+
+/* Recolors images on the page with the current accent color. */
+.recolor-images img {
+  filter: var(--image-effect);
+}
+
+/* ----------------------- Manila/Tan Page Background ----------------------- */
+/* Defaults to Black Pen */
+.page-manila
+/* .cm-html-embed:has(.page-manila) + .cm-embed-block img,
+.cm-html-embed:has(.page-manila) + .media-embed img */ {
+  --page-color: var(--page-manila);
+  --accent-color: var(--pen-black);
+  --accent-color-trans: color-mix(in srgb, var(--accent-color) 15%, transparent);
+
+  --image-effect: brightness(0) saturate(100%) invert(14%) sepia(19%)
+    saturate(296%) hue-rotate(5deg) brightness(90%) contrast(96%);
+
+  color-scheme: light;
+  color: var(--accent-color);
+  background-color: var(--page-manila);
+  --text-normal: var(--accent-color);
+  --text-muted: var(--accent-color);
+  --checklist-done-color: var(--accent-color);
+  --metadata-label-text-color: var(--accent-color);
+  --tag-color: var(--accent-color);
+  --link-color: var(--pen-blue);
+  --link-color-hover: var(--pen-light-blue);
+  --link-unresolved-color: var(--pen-red);
+  --metadata-input-text-color: var(--accent-color);
+  --hr-color: var(--accent-color);
+  --tag-background: var(--accent-color-trans);
+  font-weight: bold;
+
+  --text-faint: var(--accent-color-trans);
+  --blockquote-border-color: var(--accent-color);
+  --interactive-accent: var(--accent-color);
+  --collapse-icon-color-collapsed: var(--accent-color);
+  --checkbox-color: var(--accent-color);
+  --checkbox-marker-color: var(--page-color);
+  --checkbox-color-hover: var(--accent-color-trans);
+  --checkbox-border-color: var(--accent-color);
+  --list-marker-color: var(--accent-color);
+  --embed-border-left: 2px solid var(--accent-color);
+  --background-modifier-border-focus: var(--accent-color);
+  --background-modifier-border: var(--accent-color-trans);
+  --background-modifier-hover: color-mix(in srgb, var(--accent-color) 60%, transparent);
+
+  --pill-cover-hover: color-mix(in srgb, var(--accent-color) 60%, transparent);
+}
+.embed-manila img {
+  background-color: var(--page-manila);
+}
+
+/* --------------------------- White Page Background ------------------------ */
+/* Defaults to Black Pen */
+.page-white
+/* .cm-html-embed:has(.page-manila) + .cm-embed-block img,
+.cm-html-embed:has(.page-manila) + .media-embed img */ {
+  --page-color: var(--page-white);
+  --accent-color: var(--neutral-pen-black);
+  --accent-color-trans: color-mix(in srgb, var(--accent-color) 15%, transparent);
+
+  --image-effect: brightness(0) saturate(100%) invert(14%) sepia(19%)
+    saturate(296%) hue-rotate(5deg) brightness(90%) contrast(96%);
+
+  color-scheme: light;
+  color: var(--accent-color);
+  background-color: var(--page-white);
+  --text-normal: var(--accent-color);
+  --text-muted: var(--accent-color);
+  --checklist-done-color: var(--accent-color);
+  --metadata-label-text-color: var(--accent-color);
+  --tag-color: var(--accent-color);
+  --link-color: var(--pen-blue);
+  --link-color-hover: var(--pen-light-blue);
+  --link-unresolved-color: var(--pen-red);
+  --metadata-input-text-color: var(--accent-color);
+  --hr-color: var(--accent-color);
+  --tag-background: var(--accent-color-trans);
+  font-weight: bold;
+
+  --text-faint: var(--accent-color-trans);
+  --blockquote-border-color: var(--accent-color);
+  --interactive-accent: var(--accent-color);
+  --collapse-icon-color-collapsed: var(--accent-color);
+  --checkbox-color: var(--accent-color);
+  --checkbox-marker-color: var(--page-color);
+  --checkbox-color-hover: var(--accent-color-trans);
+  --checkbox-border-color: var(--accent-color);
+  --list-marker-color: var(--accent-color);
+  --embed-border-left: 2px solid var(--accent-color);
+  --background-modifier-border-focus: var(--accent-color);
+  --background-modifier-border: var(--accent-color-trans);
+  --background-modifier-hover: color-mix(in srgb, var(--accent-color) 60%, transparent);
+
+  --pill-cover-hover: color-mix(in srgb, var(--accent-color) 60%, transparent);
+}
+.embed-white img {
+  background-color: var(--page-white);
+}
+
+/* -------------------------- Blueprint Styled Page ------------------------- */
+/* Defaults to White Pen */
+.page-blueprint {
+  --page-color: var(--page-blue);
+  --accent-color: var(--pen-white);
+  --accent-color-trans: color-mix(in srgb, var(--accent-color) 15%, transparent);
+
+  --image-effect: brightness(0) saturate(100%) invert(89%) sepia(1%)
+    saturate(2714%) hue-rotate(196deg) brightness(107%) contrast(98%);
+
+  color-scheme: dark;
+  color: var(--accent-color);
+  background-color: var(--page-color);
+  --text-normal: var(--accent-color);
+  --text-muted: var(--accent-color);
+  --metadata-label-text-color: var(--accent-color);
+  --tag-color: var(--accent-color);
+  --link-color: #a7dcff;
+  --link-color-hover: #d2eafa;
+  --link-unresolved-color: var(--pen-red);
+  --metadata-input-text-color: var(--accent-color);
+  --hr-color: var(--accent-color);
+  --tag-background: var(--accent-color-trans);
+  /* --pill-background: var(--pen-white-trans); */
+  font-weight: bold;
+  --checklist-done-color: var(--accent-color);
+  --text-faint: var(--accent-color-trans);
+  --blockquote-border-color: var(--accent-color);
+  --interactive-accent: var(--accent-color);
+  --collapse-icon-color-collapsed: var(--accent-color);
+  --checkbox-color: var(--accent-color);
+  --checkbox-marker-color: var(--page-color);
+  --checkbox-color-hover: var(--accent-color-trans);
+  --checkbox-border-color: var(--accent-color);
+  --list-marker-color: var(--accent-color);
+  --embed-border-left: 2px solid var(--accent-color);
+  --background-modifier-border-focus: var(--accent-color);
+  --background-modifier-border: var(--accent-color-trans);
+  --background-modifier-hover: color-mix(in srgb, var(--accent-color) 60%, transparent);
+
+  --pill-cover-hover: color-mix(in srgb, var(--accent-color) 60%, transparent);
+}
+.embed-blueprint img {
+  background-color: var(--page-blue);
+}
+
+/* ------------------------------- Pen Colors ------------------------------- */
+/* Image Effects generated with:
+    https://angel-rs.github.io/css-color-filter-generator */
+.pen-white {
+  --accent-color: var(--pen-white);
+  --accent-color-trans: color-mix(in srgb, var(--pen-white) 15%, transparent);
+  color: var(--accent-color);
+  --hr-color: var(--accent-color);
+  --image-effect: brightness(0) saturate(100%) invert(89%) sepia(1%)
+    saturate(2714%) hue-rotate(196deg) brightness(107%) contrast(98%);
+}
+.pen-blue {
+  --accent-color: var(--pen-blue);
+  --accent-color-trans: color-mix(in srgb, var(--pen-blue) 15%, transparent);
+  color: var(--accent-color);
+  --hr-color: var(--accent-color);
+  --image-effect: brightness(0) saturate(100%) invert(36%) sepia(95%)
+    saturate(945%) hue-rotate(199deg) brightness(95%) contrast(95%);
+}
+.pen-red {
+  --accent-color: var(--pen-red);
+  --accent-color-trans: color-mix(in srgb, var(--pen-red) 15%, transparent);
+  color: var(--accent-color);
+  --hr-color: var(--accent-color);
+  --image-effect: brightness(0) saturate(100%) invert(40%) sepia(41%)
+    saturate(1024%) hue-rotate(316deg) brightness(99%) contrast(94%);
+}
+.pen-green {
+  --accent-color: var(--pen-green);
+  --accent-color-trans: color-mix(in srgb, var(--pen-green) 15%, transparent);
+  color: var(--accent-color);
+  --hr-color: var(--accent-color);
+  --image-effect: brightness(0) saturate(100%) invert(52%) sepia(60%)
+    saturate(2521%) hue-rotate(105deg) brightness(96%) contrast(84%);
+}
+.pen-black {
+  --accent-color: var(--pen-black);
+  --accent-color-trans: color-mix(in srgb, var(--pen-black) 15%, transparent);
+  color: var(--accent-color);
+  --hr-color: var(--accent-color);
+  --image-effect: brightness(0) saturate(100%) invert(14%) sepia(19%)
+    saturate(296%) hue-rotate(5deg) brightness(90%) contrast(96%);
+}
+.pen-gray {
+  --accent-color: var(--pen-gray);
+  --accent-color-trans: color-mix(in srgb, var(--pen-gray) 15%, transparent);
+  color: var(--accent-color);
+  --hr-color: var(--accent-color);
+  --image-effect: brightness(0) saturate(100%) invert(35%) sepia(13%)
+    saturate(189%) hue-rotate(5deg) brightness(96%) contrast(86%);
+}
+.pen-purple {
+  --accent-color: var(--pen-purple);
+  --accent-color-trans: color-mix(in srgb, var(--pen-purple) 15%, transparent);
+  color: var(--accent-color);
+  --hr-color: var(--accent-color);
+  --image-effect: brightness(0) saturate(100%) invert(33%) sepia(59%)
+    saturate(2620%) hue-rotate(249deg) brightness(98%) contrast(93%);
+}
+
+hr {
+  color: var(--accent-color);
+}
+
+:is(.page-white,
+    .page-manila,
+    .page-blueprint,
+    .pen-white,
+    .pen-blue,
+    .pen-red,
+    .pen-green,
+    .pen-black,
+    .pen-gray,
+    .pen-purple
+  )
+  svg {
+  color: color-mix(in srgb, var(--accent-color) 60%, transparent);
+}

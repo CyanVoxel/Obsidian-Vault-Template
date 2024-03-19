@@ -1,0 +1,164 @@
+[
+  {
+    "displayName": "Note",
+    "replacement": "note",
+    "icon": "lucide-pencil",
+    "color": "#448aff"
+  },
+  {
+    "displayName": "Summary",
+    "replacement": "summary",
+    "icon": "lucide-clipboard-list",
+    "color": "#00b0ff"
+  },
+  {
+    "displayName": "Abstract",
+    "replacement": "abstract",
+    "icon": "lucide-clipboard-list",
+    "color": "#00b0ff"
+  },
+  {
+    "displayName": "TL;DR",
+    "replacement": "tldr",
+    "icon": "lucide-clipboard-list",
+    "color": "#00b0ff"
+  },
+  {
+    "displayName": "Info",
+    "replacement": "info",
+    "icon": "lucide-info",
+    "color": "#00b8d4"
+  },
+  {
+    "displayName": "To-Do",
+    "replacement": "todo",
+    "icon": "lucide-check-circle-2",
+    "color": "#00b8d4"
+  },
+  {
+    "displayName": "Tip",
+    "replacement": "tip",
+    "icon": "lucide-flame",
+    "color": "#00bfa6"
+  },
+  {
+    "displayName": "Hint",
+    "replacement": "hint",
+    "icon": "lucide-flame",
+    "color": "#00bfa6"
+  },
+  {
+    "displayName": "Important",
+    "replacement": "important",
+    "icon": "lucide-flame",
+    "color": "#00bfa6"
+  },
+  {
+    "displayName": "Success",
+    "replacement": "success",
+    "icon": "lucide-check",
+    "color": "#00c853"
+  },
+  {
+    "displayName": "Check",
+    "replacement": "check",
+    "icon": "lucide-check",
+    "color": "#00c853"
+  },
+  {
+    "displayName": "Done",
+    "replacement": "done",
+    "icon": "lucide-check",
+    "color": "#00c853"
+  },
+  {
+    "displayName": "Question",
+    "replacement": "question",
+    "icon": "lucide-help-circle",
+    "color": "#63dd17"
+  },
+  {
+    "displayName": "Help",
+    "replacement": "Help",
+    "icon": "lucide-help-circle",
+    "color": "#63dd17"
+  },
+  {
+    "displayName": "FAQ",
+    "replacement": "faq",
+    "icon": "lucide-help-circle",
+    "color": "#63dd17"
+  },
+  {
+    "displayName": "Warning",
+    "replacement": "warning",
+    "icon": "lucide-alert-triangle",
+    "color": "#ff9100"
+  },
+  {
+    "displayName": "Caution",
+    "replacement": "caution",
+    "icon": "lucide-alert-triangle",
+    "color": "#ff9100"
+  },
+  {
+    "displayName": "Attention",
+    "replacement": "attention",
+    "icon": "lucide-alert-triangle",
+    "color": "#ff9100"
+  },
+  {
+    "displayName": "Failure",
+    "replacement": "failure",
+    "icon": "lucide-x",
+    "color": "#ff5252"
+  },
+  {
+    "displayName": "Fail",
+    "replacement": "fail",
+    "icon": "lucide-x",
+    "color": "#ff5252"
+  },
+  {
+    "displayName": "Missing",
+    "replacement": "missing",
+    "icon": "lucide-x",
+    "color": "#ff5252"
+  },
+  {
+    "displayName": "Danger",
+    "replacement": "danger",
+    "icon": "lucide-zap",
+    "color": "#ff1744"
+  },
+  {
+    "displayName": "Error",
+    "replacement": "error",
+    "icon": "lucide-zap",
+    "color": "#ff1744"
+  },
+  {
+    "displayName": "Bug",
+    "replacement": "bug",
+    "icon": "lucide-bug",
+    "color": "#f50057"
+  },
+  {
+    "displayName": "Example",
+    "replacement": "example",
+    "icon": "lucide-list",
+    "color": "#7c4dff"
+  },
+  {
+    "displayName": "Quote",
+    "replacement": "quote",
+    "icon": "quote-glyph",
+    "color": "#9e9e9e"
+  },
+  {
+    "displayName": "Cite",
+    "replacement": "cite",
+    "icon": "quote-glyph",
+    "color": "#9e9e9e"
+  }
+]

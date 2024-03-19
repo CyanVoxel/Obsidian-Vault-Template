@@ -1,0 +1,11 @@
+{
+	"id": "obsidian-text-format",
+	"name": "Text Format",
+	"version": "2.4.0",
+	"minAppVersion": "0.9.7",
+	"description": "Format text such as lowercase/uppercase/capitalize/titlecase, converting order/bullet list, removing redundant spaces/newline characters.",
+	"author": "Benature",
+	"authorUrl": "https://github.com/Benature",
+	"fundingUrl": "https://www.buymeacoffee.com/benature",
+	"isDesktopOnly": false
+}

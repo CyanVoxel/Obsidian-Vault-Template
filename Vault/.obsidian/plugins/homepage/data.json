@@ -1,0 +1,23 @@
+{
+  "version": 3,
+  "homepages": {
+    "Main Homepage": {
+      "value": "Home",
+      "kind": "Daily Note",
+      "openOnStartup": true,
+      "openMode": "Keep open notes",
+      "manualOpenMode": "Keep open notes",
+      "view": "Editing view (Live Preview)",
+      "revertView": true,
+      "openWhenEmpty": false,
+      "refreshDataview": false,
+      "autoCreate": true,
+      "autoScroll": false,
+      "pin": false,
+      "commands": [],
+      "alwaysApply": false,
+      "hideReleaseNotes": false
+    }
+  },
+  "separateMobile": false
+}
