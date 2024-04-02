@@ -4,40 +4,10 @@ tags:
   - Daily
 cssclasses:
   - daily
-  - <%*
-const dayOfWeek = tp.date.now("dd");
-if (dayOfWeek == "Mo")
-{
-%>monday<%*
-}
-else if (dayOfWeek == "Tu")
-{
-%>tuesday<%*
-}
-else if (dayOfWeek == "We")
-{
-%>wednesday<%*
-}
-else if (dayOfWeek == "Th")
-{
-%>thursday<%*
-}
-else if (dayOfWeek == "Fr")
-{
-%>friday<%*
-}
-else if (dayOfWeek == "Sa")
-{
-%>saturday<%*
-}
-else if (dayOfWeek == "Su")
-{
-%>sunday<%*
-}
-%>
+  - <% tp.date.now("dddd", 0, tp.file.title, "YYYYMMDD").toLowerCase() %>
 ---
 # DAILY NOTE
-## <%tp.date.now("dddd, MMMM Do, YYYY")%>
+## <% tp.date.now("dddd, MMMM Do, YYYY", 0, tp.file.title, "YYYYMMDD") %>
 ***
 ### Journal
 #### TIME

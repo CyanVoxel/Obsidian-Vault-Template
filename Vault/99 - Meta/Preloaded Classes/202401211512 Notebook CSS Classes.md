@@ -14,8 +14,10 @@ cssclasses:
   - pen-purple
   - pen-gray
   - page-white
-  - embed-blue
+  - embed-blueprint
   - embed-white
+  - embed-manila
+  - page-grid
 ---
 <div style="background-color=black;color:white">
 <i>This page is only for keeping CSS classes ready for autocomplete.</i>
