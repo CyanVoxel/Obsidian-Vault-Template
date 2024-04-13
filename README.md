@@ -1,4 +1,4 @@
-# Obsidian-Vault-Template v1.1.0
+# Obsidian-Vault-Template v1.2.0
 ## A Template for my Obsidian Vault.
 
 This is a copy of my Obsidian Vault, scrubbed of (most) personal information that you can use as a template or inspiration for your own vault.

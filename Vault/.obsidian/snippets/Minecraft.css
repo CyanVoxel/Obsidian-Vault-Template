@@ -1,5 +1,5 @@
 /*------------------------------------------------------------------------------
-                      Minecraft Theme by CyanVoxel v1.0.0
+                      Minecraft Theme by CyanVoxel v1.1.1
 ------------------------------------------------------------------------------*/
 
 :root {
@@ -20,6 +20,11 @@
   --h6-weight: 0;
   --page-color: var(--minecraft-bg);
 
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--minecraft-green-primary) 20%,
+    transparent
+  );
   color-scheme: dark;
   background-color: var(--minecraft-bg);
   --text-normal: var(--minecraft-green-primary);
@@ -43,6 +48,12 @@
     var(--minecraft-green-primary) 50%,
     transparent
   );
+  --code-normal: var(--accent-color);
+  --code-background: color-mix(
+    in srgb,
+    var(--page-color) 80%,
+    black
+  ) !important;
   --blockquote-border-color: var(--minecraft-green-primary);
   --interactive-accent: var(--minecraft-green-primary);
   --collapse-icon-color-collapsed: var(--minecraft-green-primary);
@@ -67,6 +78,7 @@
     var(--minecraft-green-primary) 20%,
     transparent
   );
+  --metadata-input-background-active: var(--accent-color-trans);
 
   color: var(--minecraft-light-gray);
   --hr-color: var(--minecraft-green-highlight);

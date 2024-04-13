@@ -1,5 +1,5 @@
 /*------------------------------------------------------------------------------
-              Notebook Background Color Schemes by CyanVoxel v2.1.1
+              Notebook Background Color Schemes by CyanVoxel v2.2.3
 
 These a few CSS classes that mimic a few of my real-world pages and pen colors.
 Go ahead and try it out! You can change or add new color variables or entire new
@@ -31,11 +31,6 @@ https://angel-rs.github.io/css-color-filter-generator
   --page-white: #ffffff;
   --page-manila: #f3deaf;
   --page-blue: #3f76ed;
-
-  /* Default Variables */
-  --page-color: var(--page-manila);
-  --accent-color: var(--pen-black);
-  --accent-color-trans: color-mix(in srgb, var(--pen-black) 15%, transparent);
 
   --grid-size: 32px;
 }
@@ -177,7 +172,7 @@ https://angel-rs.github.io/css-color-filter-generator
 /* Image Effects generated with:
     https://angel-rs.github.io/css-color-filter-generator */
 
-/* All Colors */
+/* SVGs */
 :is(
     .page-white,
     .page-manila,
@@ -193,6 +188,31 @@ https://angel-rs.github.io/css-color-filter-generator
   svg {
   color: color-mix(in srgb, var(--accent-color) 60%, transparent);
 }
+
+/* Code Blocks */
+:is(.page-white, .page-manila, .page-blueprint) :is(code,
+.HyperMD-codeblock, .cm-inline-code) {
+  --code-normal: var(--accent-color);
+  --code-background: color-mix(
+    in srgb,
+    var(--page-color) 80%,
+    black
+  ) !important;
+}
+div > pre {
+  --code-background: color-mix(
+    in srgb,
+    var(--page-color) 80%,
+    black
+  ) !important;
+}
+
+:is(.page-white, .page-manila, .page-blueprint) {
+  --metadata-input-background-active: var(--accent-color-trans);
+}
+
+/* ------------------------------- Pen Colors ------------------------------- */
+
 .pen-white {
   --accent-color: var(--pen-white);
   --accent-color-trans: color-mix(in srgb, var(--pen-white) 15%, transparent);

@@ -1,5 +1,5 @@
 /*------------------------------------------------------------------------------
-                     Daily Note Themes by CyanVoxel v1.0.0
+                     Daily Note Themes by CyanVoxel v1.0.5
 
 These are a set of 7 main CSS classes that can be used to apply individual color
 schemes to daily notes for each day of the week.
@@ -8,7 +8,7 @@ the main "day of the week" classes.
 
 NOTE: By default, this snippet relies on the "Bai Jamjuree" or
 "JetBrainsMono Nerd Font Mono" fonts. If you don't wish to use these, then just
-remove those font-family lines from this snippet.
+change or remove those font-family lines from this snippet.
                 
 ------------------------------------------------------------------------------*/
 :root {
@@ -47,37 +47,37 @@ remove those font-family lines from this snippet.
   --pill-cover-hover: color-mix(in srgb, var(--highlight) 60%, transparent);
 }
 
-.sunday {
+.sunday, .Sunday {
   --highlight: #f39caa;
   --primary: #f6466f;
   --dark: #2d0916;
 }
-.monday {
+.monday, .Monday {
   --highlight: #fcadaa;
   --primary: #f65848;
   --dark: #3c0e0b;
 }
-.tuesday {
+.tuesday, .Tuesday {
   --highlight: #aedbfa;
   --primary: #3b87f0;
   --dark: #070615;
 }
-.wednesday {
+.wednesday, .Wednesday {
   --highlight: #fff3c4;
   --primary: #ffd63d;
   --dark: #2c1404;
 }
-.thursday {
+.thursday, .Thursday {
   --highlight: #f7b79b;
   --primary: #ed6022;
   --dark: #210b04;
 }
-.friday {
+.friday, .Friday {
   --highlight: #e9f9b7;
   --primary: #92e649;
   --dark: #192108;
 }
-.saturday {
+.saturday, .Saturday{
   --highlight: #f39caa;
   --primary: #e22c3c;
   --dark: #100305;
@@ -87,14 +87,14 @@ remove those font-family lines from this snippet.
   color: var(--primary);
   text-align: center;
   font-size: 60px;
-  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono";
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
   padding: 0 !important;
 }
 .daily :is(h2, .HyperMD-header.HyperMD-header-2) {
   color: var(--highlight);
   text-align: center;
   font-size: 30px;
-  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono";
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
   font-style: italic;
   padding: 0 !important;
 }
@@ -103,14 +103,14 @@ remove those font-family lines from this snippet.
   text-align: center;
 
   font-size: 32px;
-  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono";
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
   padding-top: 0;
 }
 .daily :is(h4, .HyperMD-header.HyperMD-header-4) {
   background-color: var(--primary);
   color: var(--dark);
   /* border-color: var(--primary); */
-  /* font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", monospace; */
+  /* font-family: "JetBrainsMono Nerd Font Mono", "JetBrains Mono", monospace; */
   font-weight: 900;
   margin-bottom: 0;
   padding-top: 0;
@@ -144,13 +144,13 @@ remove those font-family lines from this snippet.
   margin-right: auto !important;
 }
 
-:is(.sunday,
-.monday,
-.tuesday,
-.wednesday,
-.thursday,
-.friday,
-.saturday
+:is(.sunday, .Sunday,
+.monday, .Monday,
+.tuesday, .Tuesday,
+.wednesday, .Wednesday,
+.thursday, .Thursday,
+.friday, .Friday,
+.saturday, .Saturday
   )
   svg {
   color: color-mix(in srgb, var(--highlight) 60%, transparent);
